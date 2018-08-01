@@ -1,0 +1,12 @@
+runtime: java
+env: flex
+api_version: 1
+
+handlers:
+  - url: .*
+    script: dynamic
+
+resources:
+  cpu: 1
+  memory_gb: 2
+

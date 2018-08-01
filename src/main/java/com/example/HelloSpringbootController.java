@@ -14,6 +14,6 @@ public class HelloSpringbootController {
 	public String index() {
 
 		logger.info("Hello");
-		return "Hello Springboot!";
+		return "Hello Springboot on GAE!";
 	}
 }
